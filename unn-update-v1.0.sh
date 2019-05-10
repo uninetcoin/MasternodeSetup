@@ -11,7 +11,12 @@ rm /root/unn/unn-cli
 sleep 1 
 
 wget https://github.com/uninetcoin/uninet-core/releases/download/v1.0/unn-cli
+
+sleep 5
+
 wget https://github.com/uninetcoin/uninet-core/releases/download/v1.0/unnd
+
+sleep 5
 
 chmod -R 755 /root/unn/*
 
