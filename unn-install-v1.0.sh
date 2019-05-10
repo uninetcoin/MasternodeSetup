@@ -18,7 +18,6 @@ sudo apt-get install libboost-all-dev -y
 sudo add-apt-repository ppa:bitcoin/bitcoin -y
 sudo apt-get update -y
 sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
-# sudo apt-get install libzmq3-dev -y
 
 echo -e "\n\nsetup unnd ...\n\n"
 
@@ -34,7 +33,9 @@ mkdir /root/.unn
 cd /root/unn
 
 wget https://github.com/uninetcoin/uninet-core/releases/download/v1.0/unn-cli
+sleep 5
 wget https://github.com/uninetcoin/uninet-core/releases/download/v1.0/unnd
+sleep 5
 chmod -R 755 ./*
 
 sleep 5
